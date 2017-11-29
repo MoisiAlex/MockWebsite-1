@@ -1,0 +1,92 @@
+body {
+    font-family: "Satysfy", cursive, sans-serif; 
+    background-color: #EE82EE;
+    box-sizing: border-box;
+}
+
+h1, label, .container-down p {
+    color: black;
+    margin: 10px;
+}
+
+h3, p {
+    color: white;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin: 0px;
+    padding-bottom: 0px;
+    border-bottom-width:medium;
+}
+
+header , footer {
+    background-color: yellow;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    align-items:center;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.container{
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.container-mid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background: url(Icons/cat.png);
+    background-attachment: fixed;
+}
+
+article {
+    width: 50%;
+    height: 50%;
+    background-color: dimgray;
+    margin-top: 50px;
+}
+
+article.container {
+    flex align-content: center;
+}
+article div {
+    margin: 15px;
+}
+footer {
+    bottom: 0;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div:last-child{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
